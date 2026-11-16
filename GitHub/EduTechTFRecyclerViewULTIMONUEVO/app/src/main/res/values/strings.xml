@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EduTechTF</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="nick_name">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="cursos_disponibles">Cursos Disponibles</string>
+    <string name="descripcion">Inscribete en los cursos que te interesen:</string>
+    <string name="perfil_usuario">Perfil Del Usuario</string>
+    <string name="nombre_curso">Nombre Del Curso</string>
+    <string name="instructor">Instructor: Nombre</string>
+    <string name="fecha_hora">Día y horario:</string>
+    <string name="inscribirse">Inscribirse</string>
+    <string name="detalle_inscripcion">Detalle e Inscripción</string>
+    <string name="medio_de_pago">Selecciona tu medio de pago:</string>
+    <string name="mercado_pago_2">Mercado Pago (2% com.)</string>
+    <string name="visa_horario">Visa (Varía por horario)</string>
+    <string name="mastercard_dia">Mastercard (Varía por día)</string>
+    <string name="precio_base_">Precio Base: $10.000,0</string>
+    <string name="fecha_y_hora">Día y horario:</string>
+    <string name="instructor_pay">Instructor:</string>
+</resources>

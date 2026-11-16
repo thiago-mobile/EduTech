@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="8dp"
+    android:background="@drawable/card_rounded_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNombreCurso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_curso"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvInstructorCurso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Instructor:"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNombreCurso" />
+
+    <TextView
+        android:id="@+id/tvFechaCurso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Día y horario:"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInstructorCurso" />
+
+     <TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="$10.000,00"
+        android:textColor="@color/price_tag"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFechaCurso" />
+
+    <TextView
+        android:id="@+id/tvCapacidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="Cupos:"
+        android:textColor="@color/cupo_tag"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvPrecio"
+        app:layout_constraintEnd_toStartOf="@id/btnInscribir"
+        app:layout_constraintStart_toEndOf="@id/tvPrecio"
+        app:layout_constraintTop_toTopOf="@id/tvPrecio" />
+
+    <Button
+        android:id="@+id/btnInscribir"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:backgroundTint="#163567"
+        android:minWidth="0dp"
+        android:paddingHorizontal="12dp"
+        android:text="@string/inscribirse"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/tvPrecio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPrecio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

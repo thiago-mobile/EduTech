@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titulo">#81A8B8</color>
+    <color name="primary">#81A8B8</color>
+    <color name="primary_variant">#81A8B8</color>
+    <color name="accent">#000000</color>
+    <color name="background">#E8F3F8</color>
+    <color name="card_background">#142F5B</color>
+    <color name="text_primary">#22556D</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="price_tag">#04AD28</color>
+    <color name="cupo_tag">#F78145</color>
+    <color name="error_red">#E32D40</color>
+
+</resources>
